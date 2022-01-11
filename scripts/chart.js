@@ -1,4 +1,4 @@
-function drawLineChart(){
+function drawLineChart(idAttr){
   // code to draw line chart goes here.
 
   var margin = {top: 20, right: 50, bottom: 30, left: 50},
@@ -32,7 +32,7 @@ function drawLineChart(){
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
       .attr("class", "chart")
-      .attr("id", "apple-stock-chart")
+      .attr("id", idAttr)
     .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -102,4 +102,4 @@ function drawLineChart(){
   });
 }
 
-drawLineChart();
+drawLineChart("apple-stock-chart");
