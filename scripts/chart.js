@@ -103,4 +103,4 @@ function drawLineChart(idAttr){
 }
 
 drawLineChart("apple-stock-chart");
-drawLineChart("apple-stock-chart2")
+drawLineChart("apple-stock-chart-2")
